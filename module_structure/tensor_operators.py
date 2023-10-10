@@ -38,3 +38,31 @@ class TensorCalculator:
 
         return torch.rand(dim_x, dim_y, dim_z)
 
+    @staticmethod
+    def tensor_sum(tensor_a: torch.Tensor, tensor_b: torch.Tensor) -> torch.Tensor:
+        """
+        Static Methods that sums two tensors
+        :param tensor_a: input the first tensor
+        :param tensor_b: input the second tensor
+        :return: a tensor
+        """
+        try:
+            result=tensor_a + tensor_b
+            return result
+        except Exception as e:
+            print("Dimensions do not match:", e)
+
+    @staticmethod
+    def tensor_mult(tensor_a: torch.Tensor, tensor_b: torch.Tensor)-> torch.Tensor:
+        """
+        Static Methods that multiplies two tensors
+        :param tensor_a: input the first tensor
+        :param tensor_b: input the second tensor
+        :return: a tensor
+        """
+        try:
+            result=torch.matmul(tensor_a, tensor_b)
+            return result
+        except Exception as e:
+            print("dimensions do not match", e)
+
