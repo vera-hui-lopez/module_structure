@@ -34,6 +34,7 @@ Creation of tensors + operations made inside of a Class: "TensorCalculator".
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/your-project.git
+   git clone  https://github.com/vera-hui-lopez/module_structure.git
+
 ## Usage
 from TensorCalculator import TensorCalculator
