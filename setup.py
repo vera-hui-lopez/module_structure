@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct  4 15:54:58 2022
-A brief comment just to modify the file
-@author: PedroAnquela
+Created on Tue Oct  10 18:43 2023
+ Set up file for the tensor calculator
+@author: Vera Hui López
 """
 
 from setuptools import setup, find_packages
@@ -14,11 +14,11 @@ AUTHOR = __author__
 NAME = __name__
 
 setup(
-    name                    = NAME,
-    version                 = VERSION,
-    description             = 'Brief description of your package',
-    author                  = AUTHOR,
-    author_email            = 'pedro.anquela@ufv.es',
+    name                    = 'tensor-calculator',
+    version                 = '1.0.0',
+    description             = ' Package for Operations apply to tensors of your desire dimensions',
+    author                  = "Vera Hui López García",
+    author_email            = '9000429@alumnos.ufv.es',
     license                 = 'MIT',
     python_requires         = '>=3.9.5',
     packages                = find_packages(),
