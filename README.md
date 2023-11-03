@@ -27,7 +27,7 @@ Creation of tensors + operations made inside of a Class: "TensorCalculator".
 
 ### Prerequisites
 
-- Python 3.9
+- Python >=3.9
 - Pytorch
 
 ### Installation
@@ -38,3 +38,11 @@ Creation of tensors + operations made inside of a Class: "TensorCalculator".
 
 ## Usage
 from TensorCalculator import TensorCalculator
+
+# Creation of tensors
+tensor_a = TensorCalculator.tensor_zeros(3, 4, 2)
+tensor_b = TensorCalculator.tensor_ones(3, 4, 2)
+
+# Example of an operation
+result_sum = TensorCalculator.tensor_sum(tensor_a, tensor_b)
+result_mult = TensorCalculator.tensor_mult(tensor_a, tensor_b)
